@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="430dp"
+
+        android:layout_height="300dp"
+        app:cardCornerRadius="75dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_cp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/splash_screen"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-324dp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:layout_marginBottom="12dp"
+        android:autofillHints="@string/enter_email_address"
+        android:background="@android:drawable/editbox_background"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/enter_email_address"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/password1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="@string/enter_password"
+        android:background="@android:drawable/editbox_background"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/enter_password"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/confirm_password1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/confirm_password1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints="@string/confirm_password"
+        android:background="@android:drawable/editbox_background"
+        android:fontFamily="sans-serif-medium"
+        android:hint="@string/confirm_password"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/Signin"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#0E0E0E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

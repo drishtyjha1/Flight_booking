@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_arrays">
+        <item>Tunisia</item>
+        <item>India</item>
+        <item>Mexico</item>
+        <item>Almagne</item>
+        <item>Italy</item>
+        <item>Korea</item>
+        <item>Switzerland</item>
+        <item>Tailand</item>
+        <item>Turkey</item>
+        <item>United Kingdom</item>
+        <item>Espagne</item>
+        <item>Canada</item>
+    </string-array></resources>

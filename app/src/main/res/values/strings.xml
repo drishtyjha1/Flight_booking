@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Flight_booking</string>
+    <string name="sign_up">sing_up</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="enter_email_address">enter_email_address</string>
+    <string name="enter_password">enter_password</string>
+    <string name="enter_mobile_no">enter_mobile_no</string>
+    <string name="enter_pincode">enter_pincode</string>
+    <string name="confirm_password">conf_password</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="profile">profile</string>
+    <string name="edit">edit</string>
+    <string name="settings">setting</string>
+    <string name="logout">logout</string>
+    <string name="email">email</string>
+    <string name="create_profile">profile</string>
+    <string name="register">register</string>
+    <string name="country_prompt">country_prompt</string>
+    <string name="Update_profile">update_profile</string>
+</resources>
